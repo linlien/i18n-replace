@@ -27,7 +27,7 @@ class Replace {
   main(inputPath, i18nPath, outputPath) {
     this.inputPath = inputPath;
     if (i18nPath) this.i18nPath = i18nPath;
-    if (outputPath) this.i18nPath = outputPath;
+    if (outputPath) this.outputPath = outputPath;
     console.log(
       `
         提取目录：${inputPath}
@@ -46,7 +46,17 @@ class Replace {
       } else {
         this.readVueOrJsFile(dir);
       }
+      this.createLangPack();
     });
+  }
+
+  /**
+   * 生成语言包文件
+   */
+  createLangPack() {
+    const file = path.join(this.outputPath, "zh_cn.json");
+    fs.writeFileSync(file, JSON.stringify(this.langPack));
+    console.log(`✔ 生成语言包成功，存放路径: ${file}`.green);
   }
 
   /**

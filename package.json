@@ -1,5 +1,5 @@
 {
-  "name": "i18n-replace",
+  "name": "chinese-replace",
   "version": "1.0.0",
   "description": "提取 .vue/.js 文件内中文字段",
   "bin": {
