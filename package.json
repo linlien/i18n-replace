@@ -1,0 +1,29 @@
+{
+  "name": "i18n-replace",
+  "version": "1.0.0",
+  "description": "提取 .vue/.js 文件内中文字段",
+  "bin": {
+    "i18n-replace": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linlien/i18n-replace.git"
+  },
+  "keywords": [
+    "i18n-replace"
+  ],
+  "author": "15817289730@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linlien/i18n-replace/issues"
+  },
+  "homepage": "https://github.com/linlien/i18n-replace#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^6.2.0",
+    "minimist": "^1.2.5"
+  }
+}
