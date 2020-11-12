@@ -1,6 +1,6 @@
 {
   "name": "zg-i18n-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "提取 .vue/.js 文件内中文字段",
   "bin": {
     "i18n-replace": "./index.js"
