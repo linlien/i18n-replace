@@ -1,9 +1,9 @@
 {
-  "name": "chinese-replace",
+  "name": "zg-i18n-replace",
   "version": "1.0.0",
   "description": "提取 .vue/.js 文件内中文字段",
   "bin": {
-    "i18n-replace": "index.js"
+    "i18n-replace": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
